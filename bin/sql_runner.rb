@@ -25,4 +25,6 @@ class SQLRunner
     sql = File.read('lib/seed.sql')
     @db.execute_batch(sql)
   end
+  
 end
+
